@@ -1,5 +1,5 @@
 .container{
-    max-width: 1400px;
+    max-width: 1500px;
     width: 100%;
     margin: 0 auto;
     padding: 0 10px;
@@ -68,14 +68,45 @@
 .hero_img{
     width: 504px;
     height: 333px;
+    display: inline-block;
 }
 .hero{
     background-color: #EFF2F8;
-    width: 996px;
+    width: 1100px;
     height:333px ;
+    transform: translateY(15px);
+    display: flex;
 }
 .hero_img2{
     width: 15px;
     height: 15px;
-    padding: 0px;
+}
+.hero_small{
+    color: gray;
+
+}
+.hero_p{
+    font-family: Montserrat, sans-serif ;
+    font-weight: 500;
+}
+.hero_h3{
+    font-family:  Montserrat, sans-serif ;
+    width: 442px;
+    text-overflow: pre-line;
+}
+.hero_text{
+    flex-direction: column;
+    padding-top: 15px;
+    margin-left: 15px;
+}
+.steam_h3{
+    font-family:  Montserrat, sans-serif ;
+}
+.steam{
+    margin-left: 150px;
+}
+.steam_img{
+    width: 15px;
+    height: 15px;
+    display: flex;
 }
